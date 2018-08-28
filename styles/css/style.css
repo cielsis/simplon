@@ -1,0 +1,144 @@
+/* line 1, ../sass/partials/_header.sass */
+header {
+  background: url(https://images.unsplash.com/photo-1508830524289-0adcbe822b40?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=377e356cce015c363d123504857f8137&auto=format&fit=crop&w=2022&q=80) no-repeat center fixed;
+  background-size: cover;
+  background-position: bottom;
+  max-width: 100%;
+  height: 358px;
+}
+
+/* line 16, ../sass/partials/_header.sass */
+.upper {
+  text-align: center;
+  padding-top: 8.33%;
+  color: #F2F2F2;
+}
+/* line 21, ../sass/partials/_header.sass */
+.upper h1 {
+  font-size: 3.75rem;
+  text-transform: uppercase;
+}
+/* line 25, ../sass/partials/_header.sass */
+.upper p {
+  font-size: 2.25rem;
+}
+
+/* line 27, ../sass/partials/_header.sass */
+.navbar {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 57px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 1px 8px black;
+}
+/* line 35, ../sass/partials/_header.sass */
+.navbar a {
+  text-decoration: none;
+  color: #F2F2F2;
+  text-align: center;
+  font-size: 1.375rem;
+  margin-right: 20px;
+}
+/* line 42, ../sass/partials/_header.sass */
+.navbar:hover {
+  color: lightseagreen;
+}
+
+/* line 3, ../sass/partials/_footer.sass */
+#footer {
+  background-color: #454445;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+/* line 10, ../../../../../../Users/cielsis/.gem/ruby/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
+#footer html, #footer body {
+  height: 100%;
+}
+/* line 12, ../../../../../../Users/cielsis/.gem/ruby/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
+#footer #root {
+  clear: both;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -185px;
+}
+/* line 18, ../../../../../../Users/cielsis/.gem/ruby/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
+#footer #root #root_footer {
+  height: 185px;
+}
+/* line 20, ../../../../../../Users/cielsis/.gem/ruby/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/layout/_sticky-footer.scss */
+#footer #footer {
+  clear: both;
+  position: relative;
+  height: 185px;
+}
+
+/* line 10, ../sass/style.sass */
+.wrapper-main {
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 29, ../sass/style.sass */
+html {
+  background-color: #F2F2F2;
+  color: #000000;
+  font-size: 100%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+/* line 35, ../sass/style.sass */
+h2 {
+  font-size: 2.25rem;
+}
+
+/* line 42, ../sass/style.sass */
+.subheading {
+  width: 100%;
+}
+/* line 44, ../sass/style.sass */
+.subheading p {
+  margin-top: 34px;
+  margin-bottom: 34px;
+}
+
+/* line 48, ../sass/style.sass */
+.staff-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* line 52, ../sass/style.sass */
+#pic {
+  margin-right: 12px;
+  margin-bottom: 20px;
+}
+
+/* line 56, ../sass/style.sass */
+.bottom {
+  margin-bottom: 70px;
+  display: flex;
+}
+
+/* line 60, ../sass/style.sass */
+#name, #mail, #phone, #comments {
+  border: 2px black;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 56px;
+  width: 450px;
+  margin-left: 50px;
+  margin-bottom: 15px;
+  font-family: inherit;
+  font-size: 100%;
+  color: lghtgray;
+}
+
+/* line 63, ../sass/style.sass */
+#envoyer {
+  text-align: center;
+}

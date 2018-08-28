@@ -1,0 +1,67 @@
+@import "partials/_compass_librairies"
+@import "partials/_header"
+@import "partials/footer"
+
+$dirty-white: #F2F2F2
+$content-color: #000000
+$field-color: lghtgray
+$font-set: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+%center 
+    max-width: 980px
+    margin-left: auto
+    margin-right: auto
+
+@mixin fieldSet
+    border: 2px black
+    @include border-radius(5px)
+    height: 56px
+    width: 450px
+    margin-left: 50px
+    margin-bottom: 15px
+    font-family: inherit
+    font-size: 100%
+    color: $field-color
+
+@import "partials/_header"
+@import "partials/footer"
+
+html
+    background-color: $dirty-white
+    color: $content-color
+    font-size: 100%
+    font-family: $font-set
+
+h2 
+    font-size: 2.25rem
+
+.wrapper-main
+    @extend %center
+
+
+.subheading
+    width: 100%
+    p 
+        margin-top: 34px
+        margin-bottom: 34px
+
+.staff-list
+    display: flex
+    flex-wrap: wrap
+
+#pic 
+    margin-right: 12px
+    margin-bottom: 20px 
+
+.bottom 
+    margin-bottom: 70px
+    display: flex
+
+#name, #mail, #phone, #comments 
+    @include fieldSet
+
+#envoyer 
+    text-align: center
+
+
+

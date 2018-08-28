@@ -1,0 +1,43 @@
+%header-style
+    background: url(https://images.unsplash.com/photo-1508830524289-0adcbe822b40?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=377e356cce015c363d123504857f8137&auto=format&fit=crop&w=2022&q=80) no-repeat center fixed
+    background-size: cover
+    background-position: bottom
+    max-width: 100%
+    height: 358px
+
+$dirty-white: #F2F2F2
+$navbar-background: rgba(0,0,0, 0.5)
+$highlight: rgb(32, 178, 170)
+$shadow: 0px 1px 8px black
+
+header
+    @extend %header-style
+
+.upper
+    text-align: center
+    padding-top: 8.33%
+    color: $dirty-white
+    
+    h1
+        font-size: 3.75rem
+        text-transform: uppercase
+
+    p
+        font-size: 2.25rem
+.navbar
+    display: flex
+    background-color: $navbar-background
+    height: 57px
+    justify-content: center
+    align-items: center
+    box-shadow: $shadow
+
+    a
+        text-decoration: none
+        color: $dirty-white
+        text-align: center
+        font-size: 1.375rem
+        margin-right: 20px
+
+    &:hover
+        color: $highlight
